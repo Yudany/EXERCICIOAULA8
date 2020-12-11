@@ -1,0 +1,40 @@
+
+* {
+    box-sizing: border-box;
+}  
+imag {
+    font-size: 34px;
+}
+
+.istablet   { 
+    display: none;
+
+}
+     
+.isDesktop  { 
+    display: none;
+    
+}
+         
+@media (min-width:768px) {
+    .isMobile {
+        display: none;
+    } 
+    .istablet {
+        display: block;
+    }   
+}
+
+@media (min-width:1024px) {
+    .isDesktop {
+        display: block;
+    } 
+    .istablet {
+        display: none;
+    }   
+}
+
+@media (ma-width:768px) {
+    img {font-size:34px;
+    }   
+}   
